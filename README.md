@@ -14,7 +14,7 @@ Though it comes with a new database setup, it's pretty and fun!
 - Real time messaging
 - File sharing
 - Group messaging
-  And much more coming...
+  and much more coming...
   
 # How to setup
 1.  Once you have you local server setup you create a database called "lanmessenger" and import SQL script from the "database" folder in the root directory.
@@ -40,3 +40,4 @@ Though it comes with a new database setup, it's pretty and fun!
  ![ScreenShot](https://github.com/FotieMConstant/LAN-Messaging/blob/master/screenshots/about_other_user.png)
  
  
+	  Any thing you'll love to see in the next update? or just want to report a bug, Please Mail : fotiemoghommahieconstant@gmail.com
