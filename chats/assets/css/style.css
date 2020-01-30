@@ -1,0 +1,162 @@
+
+/* Styling for the modal after action performed when user logs in back*/
+
+hr {
+    opacity: 0.3;
+    border-color: #000;
+    }
+
+    #css-only-modals {
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000000;
+    text-align: center;
+    white-space: nowrap;
+    height: 100%;
+    }
+
+    #css-only-modals:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+    }
+
+    .css-only-modal-check {
+    pointer-events: auto;
+    }
+
+    .css-only-modal-check:checked ~ .css-only-modal {
+    opacity: 1;
+    pointer-events: auto;
+    }
+
+    .css-only-modal {
+    width: 40%;
+    background: #FFF;
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+    pointer-events: auto;
+    padding: 25px;
+    text-align: right;
+    border-radius: 4px;
+    white-space: normal;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0;
+    pointer-events: none;
+    }
+
+    .css-only-modal h2 {
+    text-align: center;
+    }
+
+    .css-only-modal p {
+    text-align: left;
+    }
+
+    .css-only-modal-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    }
+
+    .css-only-modal-check {
+    display: none;
+    }
+
+    .css-only-modal-check:checked ~ #screen-shade {
+    opacity: 0.5;
+    pointer-events: auto;
+    }
+
+    #screen-shade {
+    opacity: 0;
+    background: #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    transition: opacity 0.8s;
+    }
+
+    .stripe > .container > p,
+    .stripe > .container > ul {
+    text-align: left;
+    padding: 35px;
+    margin: 0;
+    }
+
+    .stripe > .container > hr {
+    margin: 50px 0;
+    }
+
+    #nav-spacer {
+    display: block;
+    height: 50px;
+    }
+
+    .stripe {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    }
+
+    .default {
+    color: White;
+    background: DarkCyan;
+    }
+
+    .inverse {
+    color: DarkCyan;
+    background: White;
+    }
+
+    .grey {
+    color: White;
+    background: DimGrey;
+    }
+
+    .grey-light {
+    color: DimGrey;
+    background: White;
+    }
+
+    .color {
+    color: DarkOrange;
+    }
+    center img{
+        border-radius:100%;
+
+    }
+
+
+
+    /*Styling for online status */
+    #user-online{
+        background-color: #28a745 !important;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin-left: -20.5px;
+        margin-bottom: -1%;
+        position: relative;
+      }
+    
+      #user-offline{
+        background-color: #ed9f03 !important;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin-left: -20.5px;
+        margin-bottom: -1%;
+        position: relative;
+      }
