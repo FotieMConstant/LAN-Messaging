@@ -39,5 +39,4 @@ Though it comes with a new database setup, it's pretty and fun!
     About:
  ![ScreenShot](https://github.com/FotieMConstant/LAN-Messaging/blob/master/screenshots/about_other_user.png)
  
- 
-	  Any thing you'll love to see in the next update? or just want to report a bug, Please Mail : fotiemoghommahieconstant@gmail.com
+ Any thing you'll love to see in the next update? or just want to report a bug, Please Mail : fotiemoghommahieconstant@gmail.com
